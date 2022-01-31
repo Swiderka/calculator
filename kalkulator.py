@@ -3,7 +3,6 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 
 def kalkulator (a, b, wybor):
-  if (a, b != str):
     if wybor == "1":
         logging.info(f"Dodaje {a} i {b}.")
         return a + b
@@ -17,8 +16,6 @@ def kalkulator (a, b, wybor):
         logging.info(f"Dziele {a} przez {b}.")
     else:
         exit(1)
-  else:
-      exit(1)
 
 
 
